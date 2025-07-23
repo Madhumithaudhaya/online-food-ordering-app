@@ -1,34 +1,25 @@
-# 🍔 Online Food Ordering App
+# Online Food Ordering App
 
-This is a full-featured Android application for browsing food items, adding them to a cart, calculating tax and delivery fees, and placing orders. The app offers a smooth and intuitive user experience for a food delivery service.
+This is a basic Android application for ordering food online. Users can browse menu items, add them to a cart, and place orders. The app also includes delivery and tax calculation logic for a complete ordering experience.
 
----
+## Features
 
-## 📱 Features
+- View food items by category
+- Add and remove items from the cart
+- Calculate total price with tax and delivery charges
+- Place orders with a summary
+- Firebase integration for backend and real-time updates
 
-- 🔐 **User Authentication** (Firebase Auth)
-- 🧾 **Browse Menu Items** by category
-- 🛒 **Add to Cart / Remove from Cart**
-- 📦 **Order Summary with Tax & Delivery Fee Calculation**
-- 🔥 **Firebase Integration** for real-time data sync
-- 🧭 **Simple, clean UI** for easy navigation
+## Technologies Used
 
----
+- Android (Java/Kotlin)
+- Firebase Realtime Database / Firestore
+- Firebase Authentication (optional)
+- XML layouts
+- Android Studio
 
-## 🛠️ Tech Stack
+## How to Run the App
 
-| Layer         | Technology                     |
-|---------------|--------------------------------|
-| Frontend      | Android (Java/Kotlin), XML     |
-| Backend       | Firebase Realtime Database / Firestore |
-| Auth          | Firebase Authentication        |
-| Storage       | Firebase Storage (optional)    |
-| Tools         | Android Studio, Firebase Console |
-
----
-
-## 🚀 How to Run
-
-1. Clone the repository:
-```bash
-git clone https://github.com/Madhumithaudhaya/online-food-ordering-app.git
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/Madhumithaudhaya/online-food-ordering-app.git
